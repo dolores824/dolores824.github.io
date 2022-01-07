@@ -6,7 +6,7 @@ logo: 'assets/images/lamp.png'
 favicon: 'assets/images/miffy.png'
 baseurl: ""
 google_analytics: 'G-M6WJDTX8XM'
-# disqus: 'demowebsite'
+disqus: 'dolores824'
 # mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
 include: ["_pages"]
 permalink: /:title/
@@ -36,7 +36,7 @@ authors:
     avatar: 'assets/images/nara.png'
     email: dolores.tan@pm.me
     web: https://dolores824.github.io
-    description: "真的不懂啦！"
+    description: "喜提又一赛博流浪地"
 
 # Plugins
 plugins:
@@ -60,7 +60,7 @@ paginate: 6
 paginate_path: /page:num/
     
 # Other
-highlighter: none
+highlighter: rouge
 markdown: kramdown
 kramdown:
    syntax_highlighter_opts:
