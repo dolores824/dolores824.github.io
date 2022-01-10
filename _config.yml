@@ -36,7 +36,7 @@ authors:
     avatar: 'assets/images/nara.png'
     email: dolores.tan@pm.me
     web: https://dolores824.github.io
-    description: "喜提又一赛博流浪地"
+    description: "一个脱离了高级趣味的人"
 
 # Plugins
 plugins:
@@ -46,6 +46,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-archives
   - jekyll-figure
+  - jekyll-stickyposts
     
 # Archives
 jekyll-archives:
@@ -85,3 +86,7 @@ sass:
   style: compressed
 
 exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
+
+# stickyposts
+#stickyposts:
+#  enabled:    # Enable StickyPosts; default: true
