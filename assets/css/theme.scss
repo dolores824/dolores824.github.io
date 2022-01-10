@@ -15,6 +15,12 @@ $enable-rounded: false;
 @import 'bootstrap/bootstrap';
 @import 'stars';
 
+@font-face {
+    font-family: "HYRunYuan-EEW";
+    src: url('HYRunYuan-55W.ttf');
+        //url('HYRunYuan-EEW.woff2') format('woff2'), /* Super Modern Browsers */
+        //url('HYRunYuan-EEW.woff') format('woff'); /* Pretty Modern Browsers */
+}
 
 // general
 body, input, button, select, optgroup, textarea {   
@@ -32,12 +38,10 @@ img {
     height:auto;
 }
 
-h1,h2,h3 {
-    font-family: "New York Small";
-}
 
 h1,h2,h3,h4,h5,h6 {
     font-weight:700;
+    font-family: "New York Small", "HYRunYuan-EEW";
 }
 .site-content {
     padding-top:50px;
@@ -243,7 +247,8 @@ img, img:hover {
 .blog-grid-item {  
     color: #333;
     padding: 0;
-    display: flex;
+    //display: flex;
+    display: block;
     align-items:center;
     .author-thumb {
         width:40px;
@@ -616,6 +621,21 @@ body.active-side {
     .container, .container-sm, .container-md, .container-lg {
         max-width: 80%;
     }
+
+    //floating toc
+    .sidebar__right.sticky {
+        clear: both;
+        position: sticky;
+        position: -webkit-sticky;
+        top: 5em;
+        float: right;
+    }
+    .sidebar__right {
+        right: 0;
+        margin-right: -250px;
+        padding-left: 3em;
+    }
+
 }
 @media (min-width: 1440px) {
     .container, .container-sm, .container-md, .container-lg {
@@ -739,4 +759,53 @@ body.active-side {
 // archive
 .year-post-list {
     list-style-type: none;
+}
+
+
+/*     Scrollbar + Selection   */
+ 
+::-webkit-scrollbar {
+    width: 18px;
+    height:6px;
+}
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-thumb {
+    background:$black;
+    border:6px solid #f8f8f8;
+    border-top:4px solid #f8f8f8;
+    border-bottom:4px solid #f8f8f8;
+    cursor:pointer;
+    border-radius: 8px;
+}
+::-webkit-scrollbar-track {
+    background:#dfdfdf;
+    border: 8px solid #f8f8f8;
+    border-top:12px solid #f8f8f8;
+    border-bottom:12px solid #f8f8f8;
+}
+::-moz-selection {
+    color: $black;
+    background: #b4f5ea;
+}
+::selection {
+    color: $black;
+    background: #b4f5ea;
+}
+
+
+//   toc
+#my_toc {
+    padding-left: 0%;
+    li {
+        list-style: none;
+    }
+}
+.sidebar__right {
+    margin-bottom: 1em;
+}
+.toc-item:hover, .toc-item:focus {
+    background-color: #f4f4f4;
 }
