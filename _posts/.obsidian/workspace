@@ -1,0 +1,150 @@
+{
+  "main": {
+    "id": "f639004ce446d57b",
+    "type": "split",
+    "children": [
+      {
+        "id": "2338bd064be6b403",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "2022-01-09-置顶.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a7a29e8d4d1fb838",
+    "type": "split",
+    "children": [
+      {
+        "id": "b76d31a52a3a5fa9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3acd7054624eaaa2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "a79812b4ea18844b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 227
+  },
+  "right": {
+    "id": "756ff260b9814cee",
+    "type": "split",
+    "children": [
+      {
+        "id": "f2968c7d2769f946",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "923e9ab299774b6b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "2022-01-09-置顶.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "0cbd4b77703441b1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "2022-01-09-置顶.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1ed81c5bab24adcc",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "2022-01-09-置顶.md"
+              }
+            }
+          },
+          {
+            "id": "d6b490f24a598035",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {}
+            }
+          },
+          {
+            "id": "e4c6e1486092fd63",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_nodes",
+              "state": {}
+            }
+          },
+          {
+            "id": "25b4063951eb0cd8",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_style",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "2338bd064be6b403",
+  "lastOpenFiles": [
+    "2022-01-09-置顶.md",
+    "2022-01-09-焦虑的时候就看书吧！（大篇幅都在吹calibre.md",
+    "2022-01-08-关于n周目后用jekyll搭博客终于落下帷幕这件事.md",
+    "用法.md",
+    "blog/格式.md",
+    "blog/2022-01-08-关于n周目后用jekyll搭博客终于落下帷幕这件事.md",
+    "blog/网页装饰css.md",
+    "blog/修改主题.md",
+    "未命名 1.md",
+    "blog/关于电子阅读.md"
+  ]
+}
