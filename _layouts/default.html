@@ -16,6 +16,8 @@
 
 <script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
 
+<script src="https://kit.fontawesome.com/5760de9bbb.js" crossorigin="anonymous"></script>
+
 </head>
 
 {% if jekyll.environment == 'production' %}
@@ -34,7 +36,7 @@
 <body>
 	<!-- defer loading of font and font awesome -->
 	<noscript id="deferred-styles">
-		<link href="https://fonts.googleapis.com/css?family=Sen:400,700&display=swap" rel="stylesheet">
+		<!--<link href="https://fonts.googleapis.com/css?family=Sen:400,700&display=swap" rel="stylesheet">-->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 	</noscript>
 
@@ -52,9 +54,8 @@
         <h3>Navigation</h3>
         <li><a href="{{ site.baseurl }}/">Home</a></li>
         <li><a href="{{ site.baseurl }}/categories">Categories</a></li>
-        <li><a href="{{ site.baseurl }}/authors">Author <span class="badge badge-primary">new</span></a></li>   
-        <li><a href="{{ site.baseurl }}/archive">Archive</a></li> 
-        <li><a href="{{ site.baseurl }}/contact">Contact</a></li>       
+        <li><a href="{{ site.baseurl }}/authors">Author <span class="badge badge-primary">yeah!</span></a></li>   
+        <li><a href="{{ site.baseurl }}/archive">Archive</a></li>     
     </ul>   
 </nav>
 
@@ -79,9 +80,9 @@
     <!-- Site Tag
     ================================================== -->
     {% if page.url == '/' %}
-        <p class="sitetag">
+        <h1 class="sitetag">
             {{ site.description }}
-        </p>
+        </h1>
     {% endif %}
 
     <!-- Content
@@ -128,17 +129,24 @@
 <!-- Scripts (if you need bootstrap.js, please add it yourself. I didn't use it for performance reasons, it was not needed in this theme)
 ================================================== -->
 
-
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 
-
+<!-- add after bootstrap.min.css -->
+<link
+  rel="stylesheet"
+  href="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.css"
+/>
+<!-- add after bootstrap.min.js -->
+<script src="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.js"></script>
 
 
 <script src="{{ site.baseurl }}/assets/js/prism.js"></script>
 
 <script src="{{ site.baseurl }}/assets/js/theme.js"></script>
+
+
+
 
 {% if site.lazyimages == "enabled" %}
 <script src="{{ site.baseurl }}/assets/js/lazyload.js"></script>
