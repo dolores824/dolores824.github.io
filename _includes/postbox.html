@@ -18,6 +18,9 @@
         </div>
         <div class="card-body">
             <h2 class="card-title">
+                {% if post.sticky %}
+                <span class="sticky"><i class="fa fa-thumb-tack" aria-hidden="true"></i></span>
+                {% endif %}
                 <a class="text-dark" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
                 {% if post.rating %}
                 <div class="mb-2 mt-2 font-weight-normal">
@@ -25,7 +28,7 @@
                 </div>
                 {% endif %}
             </h2>
-            <h4 class="card-text">{{ post.excerpt | strip_html | truncatewords:30 }}</h4>
+            <p class="card-text">{{ post.excerpt | strip_html | truncate:100 }}</p>
         </div>
         <div class="card-footer bg-white">
             <div class="wrapfooter">
