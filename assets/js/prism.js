@@ -1,5 +1,5 @@
 /* PrismJS 1.26.0
-https://prismjs.com/download.html?themes#themes=prism-okaidia&languages=markup+css+clike+javascript+abap+abnf+actionscript+ada+agda+al+antlr4+apacheconf+apex+apl+applescript+aql+arduino+arff+asciidoc+aspnet+asm6502+asmatmel+autohotkey+autoit+avisynth+avro-idl+bash+basic+batch+bbcode+bicep+birb+bison+bnf+brainfuck+brightscript+bro+bsl+c+csharp+cpp+cfscript+chaiscript+cil+clojure+cmake+cobol+coffeescript+concurnas+csp+coq+crystal+css-extras+csv+cypher+d+dart+dataweave+dax+dhall+diff+django+dns-zone-file+docker+dot+ebnf+editorconfig+eiffel+ejs+elixir+elm+etlua+erb+erlang+excel-formula+fsharp+factor+false+firestore-security-rules+flow+fortran+ftl+gml+gap+gcode+gdscript+gedcom+gherkin+git+glsl+gn+go+go-module+graphql+groovy+haml+handlebars+haskell+haxe+hcl+hlsl+hoon+http+hpkp+hsts+ichigojam+icon+icu-message-format+idris+ignore+inform7+ini+io+j+java+javadoc+javadoclike+javastacktrace+jexl+jolie+jq+jsdoc+js-extras+json+json5+jsonp+jsstacktrace+js-templates+julia+keepalived+keyman+kotlin+kumir+kusto+latex+latte+less+lilypond+liquid+lisp+livescript+llvm+log+lolcode+lua+magma+makefile+markdown+markup-templating+matlab+maxscript+mel+mermaid+mizar+mongodb+monkey+moonscript+n1ql+n4js+nand2tetris-hdl+naniscript+nasm+neon+nevod+nginx+nim+nix+nsis+objectivec+ocaml+opencl+openqasm+oz+parigp+parser+pascal+pascaligo+psl+pcaxis+peoplecode+perl+php+phpdoc+php-extras+plsql+powerquery+powershell+processing+prolog+promql+properties+protobuf+pug+puppet+pure+purebasic+purescript+python+qsharp+q+qml+qore+r+racket+cshtml+jsx+tsx+reason+regex+rego+renpy+rest+rip+roboconf+robotframework+ruby+rust+sas+sass+scss+scala+scheme+shell-session+smali+smalltalk+smarty+sml+solidity+solution-file+soy+sparql+splunk-spl+sqf+sql+squirrel+stan+iecst+stylus+swift+systemd+t4-templating+t4-cs+t4-vb+tap+tcl+tt2+textile+toml+tremor+turtle+twig+typescript+typoscript+unrealscript+uri+v+vala+vbnet+velocity+verilog+vhdl+vim+visual-basic+warpscript+wasm+web-idl+wiki+wolfram+wren+xeora+xml-doc+xojo+xquery+yaml+yang+zig&plugins=inline-color */
+https://prismjs.com/download.html?themes#themes=prism-okaidia&languages=markup+css+clike+javascript+abap+abnf+actionscript+ada+agda+al+antlr4+apacheconf+apex+apl+applescript+aql+arduino+arff+asciidoc+aspnet+asm6502+asmatmel+autohotkey+autoit+avisynth+avro-idl+bash+basic+batch+bbcode+bicep+birb+bison+bnf+brainfuck+brightscript+bro+bsl+c+csharp+cpp+cfscript+chaiscript+cil+clojure+cmake+cobol+coffeescript+concurnas+csp+coq+crystal+css-extras+csv+cypher+d+dart+dataweave+dax+dhall+diff+django+dns-zone-file+docker+dot+ebnf+editorconfig+eiffel+ejs+elixir+elm+etlua+erb+erlang+excel-formula+fsharp+factor+false+firestore-security-rules+flow+fortran+ftl+gml+gap+gcode+gdscript+gedcom+gherkin+git+glsl+gn+go+go-module+graphql+groovy+haml+handlebars+haskell+haxe+hcl+hlsl+hoon+http+hpkp+hsts+ichigojam+icon+icu-message-format+idris+ignore+inform7+ini+io+j+java+javadoc+javadoclike+javastacktrace+jexl+jolie+jq+jsdoc+js-extras+json+json5+jsonp+jsstacktrace+js-templates+julia+keepalived+keyman+kotlin+kumir+kusto+latex+latte+less+lilypond+liquid+lisp+livescript+llvm+log+lolcode+lua+magma+makefile+markdown+markup-templating+matlab+maxscript+mel+mermaid+mizar+mongodb+monkey+moonscript+n1ql+n4js+nand2tetris-hdl+naniscript+nasm+neon+nevod+nginx+nim+nix+nsis+objectivec+ocaml+opencl+openqasm+oz+parigp+parser+pascal+pascaligo+psl+pcaxis+peoplecode+perl+php+phpdoc+php-extras+plsql+powerquery+powershell+processing+prolog+promql+properties+protobuf+pug+puppet+pure+purebasic+purescript+python+qsharp+q+qml+qore+r+racket+cshtml+jsx+tsx+reason+regex+rego+renpy+rest+rip+roboconf+robotframework+ruby+rust+sas+sass+scss+scala+scheme+shell-session+smali+smalltalk+smarty+sml+solidity+solution-file+soy+sparql+splunk-spl+sqf+sql+squirrel+stan+iecst+stylus+swift+systemd+t4-templating+t4-cs+t4-vb+tap+tcl+tt2+textile+toml+tremor+turtle+twig+typescript+typoscript+unrealscript+uri+v+vala+vbnet+velocity+verilog+vhdl+vim+visual-basic+warpscript+wasm+web-idl+wiki+wolfram+wren+xeora+xml-doc+xojo+xquery+yaml+yang+zig&plugins=autolinker */
 var _self =
     "undefined" != typeof window
       ? window
@@ -14492,61 +14492,54 @@ Prism.languages.yang = {
     });
 })(Prism);
 !(function () {
-  if ("undefined" != typeof Prism && "undefined" != typeof document) {
-    var a =
-        /<\/?(?!\d)[^\s>\/=$<%]+(?:\s(?:\s*[^\s>\/=]+(?:\s*=\s*(?:"[^"]*"|'[^']*'|[^\s'">=]+(?=[\s>]))|(?=[\s/>])))+)?\s*\/?>/g,
-      c = /^#?((?:[\da-f]){3,4}|(?:[\da-f]{2}){3,4})$/i,
-      l = [
-        function (n) {
-          var r = c.exec(n);
-          if (r) {
-            for (
-              var o = 6 <= (n = r[1]).length ? 2 : 1,
-                s = n.length / o,
-                e = 1 == o ? 1 / 15 : 1 / 255,
-                t = [],
-                i = 0;
-              i < s;
-              i++
-            ) {
-              var a = parseInt(n.substr(i * o, o), 16);
-              t.push(a * e);
-            }
-            return (
-              3 == s && t.push(1),
-              "rgba(" +
-                t
-                  .slice(0, 3)
-                  .map(function (n) {
-                    return String(Math.round(255 * n));
-                  })
-                  .join(",") +
-                "," +
-                String(Number(t[3].toFixed(3))) +
-                ")"
-            );
+  if ("undefined" != typeof Prism) {
+    var e =
+        /\b([a-z]{3,7}:\/\/|tel:)[\w\-+%~/.:=&@]+(?:\?[\w\-+%~/.:=?&!$'()*,;@]*)?(?:#[\w\-+%~/.:#=?&!$'()*,;@]*)?/,
+      r = /\b\S+@[\w.]+[a-z]{2}/,
+      a = /\[([^\]]+)\]\(([^)]+)\)/,
+      l = ["comment", "url", "attr-value", "string"];
+    (Prism.plugins.autolinker = {
+      processGrammar: function (i) {
+        i &&
+          !i["url-link"] &&
+          (Prism.languages.DFS(i, function (i, n, t) {
+            -1 < l.indexOf(t) &&
+              !Array.isArray(n) &&
+              (n.pattern || (n = this[i] = { pattern: n }),
+              (n.inside = n.inside || {}),
+              "comment" == t && (n.inside["md-link"] = a),
+              "attr-value" == t
+                ? Prism.languages.insertBefore(
+                    "inside",
+                    "punctuation",
+                    { "url-link": e },
+                    n
+                  )
+                : (n.inside["url-link"] = e),
+              (n.inside["email-link"] = r));
+          }),
+          (i["url-link"] = e),
+          (i["email-link"] = r));
+      },
+    }),
+      Prism.hooks.add("before-highlight", function (i) {
+        Prism.plugins.autolinker.processGrammar(i.grammar);
+      }),
+      Prism.hooks.add("wrap", function (i) {
+        if (/-link$/.test(i.type)) {
+          i.tag = "a";
+          var n = i.content;
+          if ("email-link" == i.type && 0 != n.indexOf("mailto:"))
+            n = "mailto:" + n;
+          else if ("md-link" == i.type) {
+            var t = i.content.match(a);
+            (n = t[2]), (i.content = t[1]);
           }
-        },
-        function (n) {
-          var r = new Option().style;
-          return (r.color = n), r.color ? n : void 0;
-        },
-      ];
-    Prism.hooks.add("wrap", function (n) {
-      if ("color" === n.type || 0 <= n.classes.indexOf("color")) {
-        for (
-          var r, o = n.content, s = o.split(a).join(""), e = 0, t = l.length;
-          e < t && !r;
-          e++
-        )
-          r = l[e](s);
-        if (!r) return;
-        var i =
-          '<span class="inline-color-wrapper"><span class="inline-color" style="background-color:' +
-          r +
-          ';"></span></span>';
-        n.content = i + o;
-      }
-    });
+          i.attributes.href = n;
+          try {
+            i.content = decodeURIComponent(i.content);
+          } catch (i) {}
+        }
+      });
   }
 })();
