@@ -12,6 +12,12 @@
     
 <link href="{{ site.baseurl }}/assets/css/prism.css" rel="stylesheet">
 
+<!--<link href="{{ site.baseurl }}/assets/css/cupcake.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/languages/go.min.js">
+    <script>hljs.initHighlightingOnLoad();</script>
+</script>-->
+
+
 <link href="{{ site.baseurl }}/assets/css/theme.css" rel="stylesheet">
 
 <script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
@@ -142,9 +148,7 @@
 
 
 <script src="{{ site.baseurl }}/assets/js/prism.js"></script>
-
 <script src="{{ site.baseurl }}/assets/js/theme.js"></script>
-
 
 
 
@@ -155,6 +159,15 @@
 {% if page.layout == 'post' %}
 <script id="dsq-count-scr" src="//{{site.disqus}}.disqus.com/count.js"></script>
 {% endif %}
+
+
+<!--masonry-->
+<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js">
+</script>
+<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"></script>
+<script src="{{ site.baseurl }}/assets/js/masonry.js">
+</script>
+
 
 </body>
 </html>
