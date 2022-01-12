@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2022-01-09-置顶.md",
+            "file": "2022-01-12-搭好GitHub pages之后就对主题下手了！.md",
             "mode": "preview",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2022-01-09-置顶.md",
+                "file": "2022-01-12-搭好GitHub pages之后就对主题下手了！.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +86,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2022-01-09-置顶.md",
+                "file": "2022-01-12-搭好GitHub pages之后就对主题下手了！.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2022-01-09-置顶.md"
+                "file": "2022-01-12-搭好GitHub pages之后就对主题下手了！.md"
               }
             }
           },
@@ -136,6 +136,7 @@
   },
   "active": "2338bd064be6b403",
   "lastOpenFiles": [
+    "2022-01-12-搭好GitHub pages之后就对主题下手了！.md",
     "2022-01-09-置顶.md",
     "2022-01-09-焦虑的时候就看书吧！（大篇幅都在吹calibre.md",
     "2022-01-08-关于n周目后用jekyll搭博客终于落下帷幕这件事.md",
@@ -144,7 +145,6 @@
     "blog/2022-01-08-关于n周目后用jekyll搭博客终于落下帷幕这件事.md",
     "blog/网页装饰css.md",
     "blog/修改主题.md",
-    "未命名 1.md",
-    "blog/关于电子阅读.md"
+    "未命名 1.md"
   ]
 }
