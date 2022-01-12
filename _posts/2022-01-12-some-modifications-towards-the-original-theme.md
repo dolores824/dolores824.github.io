@@ -35,9 +35,10 @@ permalink: /archive
  <h2>{{ post.date | date: '%Y' }}</h2>
  {% endif %}
  {% endunless %}
- <li>{{ post.date | date:"%Y.%m.%d：" }} <a href="{{ post.url }}">{{ post.title }}</a></li>
+ <li>{{ post.date | date:"%Y.%m.%d：" }} <a href="{{ post.url }}">{{ post.title }}</a> 
+ </li>
  {% endfor %}
- </ul>
+</ul>
  ```
 {% endraw %}
 然后调整下主题文件设置
@@ -85,7 +86,7 @@ jQuery(document).ready(function ($) {
 
 # 判断是否引用到`.js`文件方法
 ```html
-<script src="{{ site.baseurl }}/assets/js/masonry.js">
+<script src="{{ site.baseurl }}/assets/js/js文件名.js">
  <script type="text/javascript">
  if (typeof masonry == 'undefined') {
  console.log("")
