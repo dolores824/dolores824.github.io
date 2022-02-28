@@ -1981,7 +1981,7 @@ body.font-family-change-to-default .cm-strong.cm-em {
   --text-error: #e75545;
   --text-error-hover: #f86959;
 
-  --text-selection: #66bbaa59;
+  --text-selection: #aaa5db7a;
   --text-on-accent: #f2f2f2;
   --interactive-normal: #eaeaeb;
   --interactive-hover: #dbdbdc;
@@ -1992,11 +1992,11 @@ body.font-family-change-to-default .cm-strong.cm-em {
   --search-text: #000000;
   --folder-title: #000000;
 
-  --mark-highlight: #ffd298b4;
+  --mark-highlight: #66bbaa59;
   /*preview*/
   --mark-highlight-strong-em: #ff880049;
   --strong-em-highlight-color: #237add;
-  --text-highlight-bg: #ffd298d8;
+  --text-highlight-bg: #66bbaa59;
   /*edit*/
   --text-search-highlight-bg: #ffd1dd;
   --strong-em-color-1: #1048ff;
@@ -4459,7 +4459,7 @@ body.color-scheme-options-honey-milk-topaz.theme-light {
   --search-text: #000000;
   --folder-title: #000000;
 
-  --mark-highlight: #ffd298b4;
+  --mark-highlight: #aaa5db;
   /*preview*/
   --mark-highlight-strong-em: #ff880049;
   --strong-em-highlight-color: var(--color11);
@@ -5023,7 +5023,7 @@ body.color-scheme-options-chocolate-topaz.theme-light {
   --search-text: #000000;
   --folder-title: #000000;
 
-  --mark-highlight: #ffd298b4;
+  --mark-highlight: #aaa5db;
   /*preview*/
   --mark-highlight-strong-em: #ff880049;
   --strong-em-highlight-color: var(--color11);
@@ -5516,7 +5516,7 @@ body.color-scheme-options-autumn-topaz.theme-light {
   --interactive-accent: var(--main-color);
   --interactive-accent-hover:  var(--low-color);
 
-  --mark-highlight: #ffd298b4;  /*preview*/
+  --mark-highlight: #aaa5db;  /*preview*/
   --mark-highlight-strong-em: #ff880049; 
   --strong-em-highlight-color: var(--color11);
   --text-highlight-bg: #ffd298d8; /*edit*/

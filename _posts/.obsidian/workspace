@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2022-01-12-some-modifications-towards-the-original-theme.md",
+            "file": "每个infp总有一个心理咨询师的职业理想.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2022-01-12-some-modifications-towards-the-original-theme.md",
+                "file": "每个infp总有一个心理咨询师的职业理想.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +86,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2022-01-12-some-modifications-towards-the-original-theme.md",
+                "file": "每个infp总有一个心理咨询师的职业理想.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2022-01-12-some-modifications-towards-the-original-theme.md"
+                "file": "每个infp总有一个心理咨询师的职业理想.md"
               }
             }
           },
@@ -136,15 +136,15 @@
   },
   "active": "2338bd064be6b403",
   "lastOpenFiles": [
+    "每个infp总有一个心理咨询师的职业理想.md",
+    "纯纯的吐槽罢了.md",
     "2022-01-12-some-modifications-towards-the-original-theme.md",
-    "2022-01-08-关于n周目后用jekyll搭博客终于落下帷幕这件事.md",
+    "哪个曾经的文艺少女没有一个作家梦（不是.md",
     "2022-01-09-e-reading-applications.md",
+    "2022-01-08-关于n周目后用jekyll搭博客终于落下帷幕这件事.md",
     "2022-01-09-置顶.md",
     "用法.md",
     "blog/格式.md",
-    "blog/2022-01-08-关于n周目后用jekyll搭博客终于落下帷幕这件事.md",
-    "blog/网页装饰css.md",
-    "blog/修改主题.md",
-    "未命名 1.md"
+    "blog/2022-01-08-关于n周目后用jekyll搭博客终于落下帷幕这件事.md"
   ]
 }

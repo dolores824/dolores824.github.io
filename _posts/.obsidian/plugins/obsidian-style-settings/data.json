@@ -56,7 +56,7 @@
   "blue-topaz-theme@@fancy-hr-icon": "'💜'",
   "blue-topaz-theme@@folder-style-change-options-colorful": false,
   "blue-topaz-theme@@folder-style-change-options-colorful-subfolder": "folder-colorful-one",
-  "blue-topaz-theme@@list-style-change-options": "list-no-border",
+  "blue-topaz-theme@@list-style-change-options": "list-vertical-line-two",
   "blue-topaz-theme@@blockquote-style-change-options": "blockquote-style-default",
   "blue-topaz-theme@@rainbow-lines": false,
   "blue-topaz-theme@@rainbow-ordered-list": false,
@@ -71,5 +71,17 @@
   "blue-topaz-theme@@layout-style-options": "layout-style-options-default",
   "blue-topaz-theme@@text-normal@@light": "#0E0E0E",
   "blue-topaz-theme@@interactive-accent@@light": "#A3AF94",
-  "blue-topaz-theme@@text-accent@@light": "#A3AF94"
+  "blue-topaz-theme@@text-accent@@light": "#A3AF94",
+  "blue-topaz-theme@@font-family-major": "Adobe Clean, '仓耳云黑', 'Segoe UI Emoji', var(--default-font)",
+  "blue-topaz-theme@@font-family-h1": "Kreon, '仓耳云黑'",
+  "blue-topaz-theme@@font-family-h2": "Kreon, '仓耳云黑'",
+  "blue-topaz-theme@@font-family-h3": "Kreon, '仓耳云黑'",
+  "blue-topaz-theme@@font-family-h4": "Kreon, '仓耳云黑'",
+  "blue-topaz-theme@@font-family-h5": "Kreon, '仓耳云黑'",
+  "blue-topaz-theme@@font-family-h6": "Kreon, '仓耳云黑'",
+  "blue-topaz-theme@@font-family-preview-edit-code": "'Consolas ligaturized v2', Monaco, 'Source Han Mono', 'Microsoft Yahei Mono', 'Segoe UI Emoji', 'Microsoft YaHei', 'Source Code Pro',  monospace",
+  "blue-topaz-theme@@non-border-bottom-header": false,
+  "blue-topaz-theme@@plain-file-title": false,
+  "blue-topaz-theme@@loading-animation": true,
+  "blue-topaz-theme@@light-background-color-files": false
 }
