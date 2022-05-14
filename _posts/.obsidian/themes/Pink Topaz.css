@@ -321,7 +321,7 @@ to get a right-side note block
 
   /*font family*/
   --font-family-list:                                                    ;/*列表字体*/
-  --font-family-major: Kreon, "仓耳云黑"                      ;/*主体（包括列表）字体，除代码框等少数部分*/
+  --font-family-major:                                                   ;/*主体（包括列表）字体，除代码框等少数部分*/
   --font-family-h1:                                                      ;
   --font-family-h2:                                                      ;
   --font-family-h3:                                                      ;
@@ -329,14 +329,14 @@ to get a right-side note block
   --font-family-h5:                                                      ;
   --font-family-h6:                                                      ;
   --font-family-title:                                                   ;/*文件抬头标题*/
-  --font-family-folder-file-title: Lato, "仓耳云黑"                       ;/*左侧边栏文件、文件夹字体*/
-  --font-family-preview-edit-code: "Fantasque Sans Mono", "Consolas", "Monaco", monospace;
-  --text-family-inline-code: "Fantasque Sans Mono", "Consolas", "Monaco", monospace;
+  --font-family-folder-file-title:                                       ;/*左侧边栏文件、文件夹字体*/
+  --font-family-preview-edit-code:        "Consolas", "Monaco", monospace;
+  --text-family-inline-code:              "Consolas", "Monaco", monospace;
   --font-family-tag:                                                     ;
-  --font-family-vault: "Lucida Handwriting", "Segoe UI Emoji"            ;/*左侧库名字体*/
+  --font-family-vault:                                                   ;/*左侧库名字体*/
   --font-family-special-tag:       "Lucida Handwriting", "Dancing Script", "Hand of Sean", "Angelina", cursive;
   --font-family-YAML:              "Lucida Handwriting", "Dancing Script", "Hand of Sean", "Angelina", cursive;
-  --font-monospace: "Fantasque Sans Mono", "Consolas", "Monaco", "Source Code Pro", monospace;
+  --font-monospace: "Consolas", "Monaco", "Source Code Pro", monospace;
 } 
 
 .theme-dark {
@@ -927,7 +927,7 @@ code {
 
 /* mark highlighting */
 mark { 
-  /*background-color: var(--mark-highlight)!important;*/
+  background-color: var(--mark-highlight)!important;
   padding: 1px 3px; 
   border-radius: 3px;
 }
@@ -1148,11 +1148,6 @@ input.search-input {
 
 body {
   -webkit-font-smoothing: auto;
-}
-
-/*edit mode字体*/
-.cm-content {
-  font-family: var(--font-family-major);
 }
 
 /*==========================*/
@@ -1481,7 +1476,7 @@ div:not(.CodeMirror-activeline) > .CodeMirror-line span.cm-formatting-task.cm-pr
 .markdown-preview-view.is-readable-line-width .markdown-preview-sizer {
   line-height: 1.7;
   font-family: var(--font-family-major);
-  text-align: start;
+  text-align: justify;
 }
 
 pre.HyperMD-list-line.HyperMD-list-line {
@@ -1520,14 +1515,14 @@ mjx-container[jax='CHTML'] {
 .theme-light .cm-s-obsidian span.cm-math:not(.cm-formatting-math-begin):not(.cm-formatting-math-end),
 .theme-light .markdown-preview-view code {
   color: #ee5f00;
-  /*font-size: var(--font-size-edit-code) !important;*/
+  font-size: var(--font-size-edit-code) !important;
   font-family: var(--font-family-preview-edit-code);
   text-align: start;
 }
 
 /*bold code text except code language*/
 code:not([class*='language-']) {
-  /*font-weight: 600;*/
+  font-weight: 600;
   font-family: var(--font-family-preview-edit-code) !important;
 }
 
@@ -1638,13 +1633,13 @@ ul > li:not(.task-list-item) {
   transition: all 300ms ease-in-out;
 }
 
-/*.theme-dark ul > li:not(.task-list-item) {
+.theme-dark ul > li:not(.task-list-item) {
   border-left: 2px solid var(--list-ul-block-color);
-}*/
+}
 
-/*.theme-light ul > li:not(.task-list-item) {
+.theme-light ul > li:not(.task-list-item) {
   border-left: 2px solid var(--list-ul-block-color);
-}*/
+}
 
 ul > li:not(.task-list-item):hover {
   border-color: var(--list-ul-hover);
@@ -1674,7 +1669,7 @@ ol ul ol ol {
 ol > li {
   margin-left: -5px;
   padding-left: 6px;
-  /*border-radius: 5px;  之前的括号*/
+  border-radius: 5px;
   margin-bottom: 6px;
   margin-top: 4px;
   padding-right: 6px;
@@ -1685,10 +1680,9 @@ ol > li {
   border-left: 2px solid var(--list-ol-block-color);
 } 
 
-/*之前的列表括号
 .theme-light ol > li {
   border-left: 2px solid var(--list-ol-block-color);
-} */
+} 
 
 ol > li:hover {
   border-color: var(--list-ol-hover);
@@ -2740,7 +2734,7 @@ span.cm-formatting-task {
   top: 0px;
   font-size: 15px;
   font-weight: bold;
-  color: #f37575bb;
+  color: var(--text-accent);
   transition: transform 10ms linear 0s;
 }
 
@@ -5056,7 +5050,7 @@ img[alt$="inlR"] {
     --panel-border-color: #fd355a;
     --search-text: #37291a;
     --folder-title: #37291a;
-    --mark-highlight: #f5a7a2;
+    --mark-highlight: #fd355a;
     --background-search-result: #ffdece;
     --gray-1: #c4c4c4;
     --gray-2: #7c8595;
@@ -5319,7 +5313,7 @@ img[alt$="inlR"] {
 }
 .cm-s-obsidian,
 .markdown-preview-view {
-    text-align: start;
+    text-align: justify;
     hyphens: auto;
 }
 
@@ -5464,7 +5458,7 @@ pre[class*='language-txt']:before {
 .theme-light pre[class*="language-"] {
     color: #37291a !important;
     text-shadow: none;
-    /*font-family: var(--mono-font), var(--cjk-font);*/
+    font-family: var(--mono-font), var(--cjk-font);
 }
 
 .theme-dark .token.keyword, .theme-light .token.keyword {

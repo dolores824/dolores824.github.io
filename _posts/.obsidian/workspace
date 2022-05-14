@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "每个infp总有一个心理咨询师的职业理想.md",
+            "file": "2022-01-09-e-reading-applications.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "每个infp总有一个心理咨询师的职业理想.md",
+                "file": "2022-01-09-e-reading-applications.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +86,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "每个infp总有一个心理咨询师的职业理想.md",
+                "file": "2022-01-09-e-reading-applications.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -98,12 +98,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "每个infp总有一个心理咨询师的职业理想.md"
+                "file": "2022-01-09-e-reading-applications.md"
               }
             }
           },
           {
-            "id": "d6b490f24a598035",
+            "id": "99fde0e5f50ffc83",
             "type": "leaf",
             "state": {
               "type": "todo",
@@ -111,7 +111,7 @@
             }
           },
           {
-            "id": "e4c6e1486092fd63",
+            "id": "9a2e9cedb11f4a9c",
             "type": "leaf",
             "state": {
               "type": "juggl_nodes",
@@ -119,7 +119,7 @@
             }
           },
           {
-            "id": "25b4063951eb0cd8",
+            "id": "c9b88dbf4d7584d4",
             "type": "leaf",
             "state": {
               "type": "juggl_style",
@@ -127,24 +127,23 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 141
   },
   "active": "2338bd064be6b403",
   "lastOpenFiles": [
-    "每个infp总有一个心理咨询师的职业理想.md",
-    "纯纯的吐槽罢了.md",
-    "2022-01-12-some-modifications-towards-the-original-theme.md",
-    "哪个曾经的文艺少女没有一个作家梦（不是.md",
     "2022-01-09-e-reading-applications.md",
+    "场景 雨.md",
+    "2022-05-14-the-proxy-setting-of-pip-and-conda.md",
     "2022-01-08-关于n周目后用jekyll搭博客终于落下帷幕这件事.md",
-    "2022-01-09-置顶.md",
-    "用法.md",
-    "blog/格式.md",
-    "blog/2022-01-08-关于n周目后用jekyll搭博客终于落下帷幕这件事.md"
+    "2022-01-12-some-modifications-towards-the-original-theme.md",
+    "纯纯的吐槽罢了.md",
+    "哪个曾经的文艺少女没有一个作家梦（不是.md",
+    "每个infp总有一个心理咨询师的职业理想.md",
+    "草稿 cafe女仆x.md",
+    "草稿 高中生.md"
   ]
 }
