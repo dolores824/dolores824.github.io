@@ -6,7 +6,7 @@ categories: [ 折腾向 ]
 tags: [ 搭建环境 ]
 ---
 具体表现为只能关闭代理`install`package，开启代理和添加bypass域名都无法下载，提示ssl错误     
-分别创建`pip.ini``.condarc`文件并在文件内添加以下内容
+分别创建`pip.ini`, `.condarc`文件并在文件内添加以下内容
 
 # pip设置
 `C:\Users\...\AppData\Roaming\pip\pip.ini`
