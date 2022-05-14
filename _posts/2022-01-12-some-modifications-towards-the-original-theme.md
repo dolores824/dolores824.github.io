@@ -4,6 +4,7 @@ title:  "搭好GitHub pages之后就对主题下手了！"
 author: Dolores
 categories: [ 折腾向 ]
 tags: [ 主题 ]
+toc: true
 ---
 只是没什么水平的删删改改而已(￣▽￣)"
 # 加日期分类的归档页
