@@ -56,7 +56,11 @@ permalink: /archive
 水平有限……想搞个固定在屏幕默认展开的菜单样式，整半天整不会，以后再弄吧还是🥱    
 + [x] 屏幕固定
 + [ ] 放在navbar里
-+ [ ] 默认展开
++ [ ] 可折叠，默认展开
+博文页面一多发现这个toc太多bug了🤦‍   
+先不说responsive层面，单就网页最大化不同blog页面和正文的间距咋害能不同呢……   
+就比如这篇，上面正常，没几段间距变窄（头疼   
+等我有空再搞叭……
 
 # 置顶博文
 [jekyll sticky posts](https://github.com/ibrado/jekyll-stickyposts)
