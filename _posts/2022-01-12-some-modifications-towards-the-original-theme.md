@@ -45,16 +45,15 @@ permalink: /archive
 然后调整下主题文件设置
 
 ---
-服了，liquid代码块无法正常显示，查了下得这样设置，参考链接[GitHub 博客-- Jekyll--代码高亮，Liquid 转义字符](https://blog.csdn.net/zhangpeterx/article/details/103920538?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_title~default-0.no_search_link&spm=1001.2101.3001.4242.1&utm_relevant_index=3)
+服了，liquid代码块无法正常显示，查了下得这样操作，参考链接[GitHub 博客-- Jekyll--代码高亮，Liquid 转义字符](https://blog.csdn.net/zhangpeterx/article/details/103920538?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_title~default-0.no_search_link&spm=1001.2101.3001.4242.1&utm_relevant_index=3)
 
 
 # 加评论插件
-想要个可以不登录第三方、最好可以匿名评论的插件，原主题自带的disqus可以，但是似乎国内登不上？     
+想要个可以不登录第三方、最好可以匿名评论的插件，虽然原主题自带的disqus可以，但是似乎国内登不上？     
 搜了下发现valine不错。    
 折腾了半天一直添加不上，算了
 
 # toc修改
-水平有限……以后再弄吧还是🥱    
 + [x] 屏幕固定    
 + [ ] 可折叠，默认展开     
 + [ ] responsive优化    

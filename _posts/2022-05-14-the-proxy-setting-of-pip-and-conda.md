@@ -9,7 +9,7 @@ tags: [ 搭建环境 ]
 分别创建`pip.ini`, `.condarc`文件并在文件内添加以下内容
 
 # pip设置
-`C:\Users\...\AppData\Roaming\pip\pip.ini`
+`C:\Users\username\AppData\Roaming\pip\pip.ini`
 ```ini
 [global]
 
@@ -18,14 +18,14 @@ https_proxy = http://localhost:1214
 ```
 
 # conda设置
-`~/.condarc`
+`C:\Users\username\.condarc`
 ```yaml
 proxy_servers:
   http: http://localhost:1214
   https: http://localhost:1214 
 ```
 
-# REF
+#### REF
 [User Guide - pip documentation v22.0.4](https://pip.pypa.io/en/stable/user_guide/?highlight=proxy#using-a-proxy-server)   
 [Python 遭遇 ProxyError 问题记录](https://zhuanlan.zhihu.com/p/350015032)   
 [[Feature Request] HTTP 系统代理增加协议头 · Issue #1787 · Fndroid/clash_for_windows_pkg](https://github.com/Fndroid/clash_for_windows_pkg/issues/1787)   
