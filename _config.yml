@@ -1,7 +1,7 @@
 # Site
 name: "dolores🥀"
 title: "drifted"
-description: "Pannacotta🍮"
+description: "酔つてから咄も八重の桜哉"
 logo: 'assets/images/lamp.png'
 favicon: 'assets/images/miffy.png'
 baseurl: ""
@@ -36,7 +36,7 @@ authors:
     avatar: 'assets/images/nara.png'
     email: dolores.tan@pm.me
     web: https://dolores824.github.io
-    description: "一个脱离了高级趣味的人"
+    description: "蟾蜍被桃花香气所诱"
 
 # Plugins
 plugins:
