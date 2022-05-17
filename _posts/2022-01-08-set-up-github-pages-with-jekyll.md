@@ -11,7 +11,7 @@ toc: true
 
 
 # 流水账过程记录
-找到了个比较喜欢的主题：侧边栏+卡片式主页，[Memoirs](https://github.com/wowthemesnet/jekyll-theme-memoirs)  
+找到了个比较喜欢的主题：侧边栏+卡片式主页，[Memoirs](https://github.com/wowthemesnet/jekyll-theme-memoirs)   
 fork，更改仓库设置，进入博客主页，发现显示的一塌糊涂，怎么跟各大教程上说的直接fork主题仓库就能显示博客雏形不一样呢(′д｀ )…彡…彡，说好的不安装jekyll也行呢（回过头来想想的确也行(lll￢ω￢)  
     
 安装ruby+deltoolkit，一开始直接下载了最新版   
@@ -108,7 +108,7 @@ D:/downloads/github-pages/ruby/lib/ruby/2.6.0/bundler/runtime.rb:319:in `check_f
 + [ ] 搭建一个碎碎念页面
 + [ ] 搭建一个gallery页面    
 
-~~评论换成valine~~
+~~评论换成valine~~    
 *评论插件俺还是直接用disqus了对不起55555，想要valine但真的弄了半天没挂上啊！我应该好好把Jekyll和liquid文档看了，羡慕别人保姆级主题自带n个评论系统可以选5555*   
     
 # 碎碎念虽迟但到

@@ -12,7 +12,6 @@ tags: [ 搭建环境 ]
 `C:\Users\username\AppData\Roaming\pip\pip.ini`
 ```ini
 [global]
-
 http_proxy = http://localhost:1214   # 填写本地端口，下同
 https_proxy = http://localhost:1214
 ```
