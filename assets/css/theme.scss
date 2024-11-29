@@ -27,9 +27,19 @@ $enable-rounded: false;
     src: url('Consolasligaturizedv3.ttf');
 }
 
+@font-face {
+    font-family: "Gen Jyuu Gothic Regular3";
+    src: url('Gen-Jyuu-Gothic-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url('Lato.ttf');
+}
+
 // general
 body, input, button, select, optgroup, textarea {   
-    font-family: "Gen Jyuu Gothic Regular", Lato;
+    font-family: "Gen Jyuu Gothic Regular", "Lato";
 }
 body {
     line-height:1.7;
