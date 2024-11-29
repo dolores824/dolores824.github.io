@@ -1,0 +1,25 @@
+<!-- Post, Page Content
+================================================== -->
+<div class="article-post">
+    <!-- Toc if any -->
+    {% if page.toc %}
+    {% if page.beforetoc %}
+        <p><em>{{page.beforetoc}}</em></p>
+    {% endif %}
+
+
+      <aside class="sidebar__right sticky">
+          <nav class="toc">
+                  <h6 class="nav__title"><i class="fas fa-mug-hot"></i> On this page</h6>
+              {% include toc.html html=content class="toc-item" id="my_toc" %}
+              </ul>
+
+          </nav>
+      </aside>
+
+
+    {% endif %}
+    <!-- End Toc -->
+    {{content}}
+</div>
+

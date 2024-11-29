@@ -1,0 +1,149 @@
+{
+  "main": {
+    "id": "f639004ce446d57b",
+    "type": "split",
+    "children": [
+      {
+        "id": "2338bd064be6b403",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "2022-05-15-setting-r-environment-for-jupyter.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a7a29e8d4d1fb838",
+    "type": "split",
+    "children": [
+      {
+        "id": "b76d31a52a3a5fa9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3acd7054624eaaa2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "a79812b4ea18844b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 227
+  },
+  "right": {
+    "id": "756ff260b9814cee",
+    "type": "split",
+    "children": [
+      {
+        "id": "f2968c7d2769f946",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "923e9ab299774b6b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "2022-05-15-setting-r-environment-for-jupyter.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "0cbd4b77703441b1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "2022-05-15-setting-r-environment-for-jupyter.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1ed81c5bab24adcc",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "2022-05-15-setting-r-environment-for-jupyter.md"
+              }
+            }
+          },
+          {
+            "id": "99fde0e5f50ffc83",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {}
+            }
+          },
+          {
+            "id": "9a2e9cedb11f4a9c",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_nodes",
+              "state": {}
+            }
+          },
+          {
+            "id": "c9b88dbf4d7584d4",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_style",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 198
+  },
+  "active": "2338bd064be6b403",
+  "lastOpenFiles": [
+    "2022-05-15-setting-r-environment-for-jupyter.md",
+    "2022-01-12-some-modifications-towards-the-original-theme.md",
+    "2022-01-08-关于n周目后用jekyll搭博客终于落下帷幕这件事.md",
+    "2022-05-14-the-proxy-setting-of-pip-and-conda.md",
+    "2022-01-09-e-reading-applications.md",
+    "场景 雨.md",
+    "纯纯的吐槽罢了.md",
+    "哪个曾经的文艺少女没有一个作家梦（不是.md",
+    "每个infp总有一个心理咨询师的职业理想.md",
+    "草稿 cafe女仆x.md"
+  ]
+}

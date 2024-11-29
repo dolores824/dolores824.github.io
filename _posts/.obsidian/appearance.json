@@ -1,0 +1,9 @@
+{
+  "baseFontSize": 17,
+  "theme": "moonstone",
+  "enabledCssSnippets": [
+    "Iterative Rainbow Folder Icons"
+  ],
+  "cssTheme": "Blue Topaz",
+  "translucency": false
+}

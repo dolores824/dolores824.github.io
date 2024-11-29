@@ -1,0 +1,42 @@
+---
+title: "Tags"
+layout: default
+permalink: "/tags.html"
+---
+
+
+<section class="mt-4 mb-5">
+    
+    <div class="container mb-1 sort-head-menu">
+        <h1 class="font-weight-bold title">Tags</h1>    
+        <div class="row">
+        {% include menu-tags.html %}
+        </div>
+    </div>
+
+
+<div class="container-fluid">
+    <div class="card-columns">
+    {% for tag in site.tags %}
+    </div> 
+    
+    <h4 class="mt-5 mb-neg-30" id="{{ tag[0] | downcase }}"><span class="text-capitalize badge badge-primary text-small">{{ tag[0] }}</span></h4>
+    
+    <div class="blog-grid-container">
+
+        {% assign pages_list = tag[1] %}
+        {% for post in pages_list %}
+          {% if post.title != null %}
+              {% if group == null or group == post.group %}
+                {% include postbox.html %}
+              {% endif %}
+          {% endif %}
+        {% endfor %}
+        {% assign pages_list = nil %}
+        {% assign group = nil %}
+
+    {% endfor %}
+    </div>
+</div>
+    
+</section>

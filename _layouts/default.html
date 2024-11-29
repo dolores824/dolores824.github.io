@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link rel="icon" href="{{ site.baseurl }}/assets/images/miffy.png">
+
+<title>{{ page.title }} | {{site.name}}</title>
+
+{% seo %}
+    
+<link href="{{ site.baseurl }}/assets/css/prism.css" rel="stylesheet">
+
+<!--<link href="{{ site.baseurl }}/assets/css/cupcake.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/languages/go.min.js">
+    <script>hljs.initHighlightingOnLoad();</script>
+</script>-->
+
+
+<link href="{{ site.baseurl }}/assets/css/theme.css" rel="stylesheet">
+
+<script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
+
+<script src="https://kit.fontawesome.com/5760de9bbb.js" crossorigin="anonymous"></script>
+
+<!--google search console verification-->
+<meta name="google-site-verification" content="S7mkUQGnXxYyNWHZVJsa3srHSZ7KcPibO2XKEK7WUBg" />
+
+</head>
+
+{% if jekyll.environment == 'production' %}
+<!-- change your GA id in _config.yml -->
+<script async src="https://www.googletagmanager.com/gtag/js?id={{site.google_analytics}}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', '{{site.google_analytics}}');
+</script>
+{% endif %}
+
+{% capture layout %}{% if page.layout %}layout-{{ page.layout }}{% endif %}{% endcapture %}
+<body>
+	<!-- defer loading of font and font awesome -->
+	<noscript id="deferred-styles">
+		<!--<link href="https://fonts.googleapis.com/css?family=Sen:400,700&display=swap" rel="stylesheet">-->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	</noscript>
+
+<!-- Begin Sidebar Navigation
+================================================== -->
+
+<div class="sidebar">    
+</div>   
+<div class="nav-icon">
+    <div class="hamburger-bar"></div>
+</div>
+<div id="blackover-nav" class="blackover"></div>
+<nav id="menu">
+    <ul>
+        <h3>Navigation</h3>
+        <li><a href="{{ site.baseurl }}/">Home</a></li>
+        <li><a href="{{ site.baseurl }}/categories">Categories</a></li>
+        <li><a href="{{ site.baseurl }}/authors">Author <span class="badge badge-primary">^^</span></a></li>   
+        <li><a href="{{ site.baseurl }}/archive">Archive</a></li>
+        <!--<li><a href="{{ site.baseurl }}/gallery">Gallery 🛋️</a></li>       -->
+    </ul>   
+</nav>
+
+{% include search-lunr.html %}
+
+
+<!-- End Sidebar Navigation
+================================================== -->
+
+<div class="site-content {% if page.url == '/' %} firstpage {% endif %}">
+
+<div class="container">
+
+    <!-- Site Logo/Name
+    ================================================== -->
+   
+    <a class="navbar-brand" href="{{ site.baseurl }}/">
+        <img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{ site.name }}">
+    </a>  
+   
+
+    <!-- Site Tag
+    ================================================== -->
+    {% if page.url == '/' %}
+        <h1 class="sitetag">
+            {{ site.description }}
+        </h1>
+    {% endif %}
+
+    <!-- Content
+    ================================================== -->
+    <div class="main-content">
+        {{ content }}
+    </div>
+
+    {% if site.mailchimp-list %}
+    <!-- Newsletter
+    ================================================== -->
+    <div class="newsletter text-center">
+        <span class="h4"><img src="{{ site.baseurl }}/{{ site.logo }}" class="newsletter-logo" alt="{{site.title}}"> &nbsp; Never miss a <b>story</b> from us, subscribe to our newsletter</span>
+        <form action="{{site.mailchimp-list}}" method="post" name="mc-embedded-subscribe-form" class="wj-contact-form validate" target="_blank" novalidate>
+            <div class="mc-field-group d-inline-flex">
+            <input type="email" placeholder="Your e-mail" name="EMAIL" class="required email" id="mce-EMAIL" autocomplete="on" required>
+            <input type="submit" value="Subscribe" name="subscribe" class="heart">
+            </div>
+        </form>
+    </div>
+    {% endif %}
+    
+</div>
+
+<!-- Begin Footer
+================================================== -->
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-sm-12 text-center text-lg-left">
+                Copyright © {{ site.time | date: "%Y" }} {{ site.name }} 
+            </div>
+            <div class="col-md-6 col-sm-12 text-center text-lg-right">    
+                <a target="_blank" href="https://www.wowthemes.net/memoirs-free-jekyll-theme/">Memoirs Jekyll Theme</a> by WowThemes.net
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- End Footer
+================================================== -->
+
+</div> <!-- /.site-content -->
+
+<!-- Scripts (if you need bootstrap.js, please add it yourself. I didn't use it for performance reasons, it was not needed in this theme)
+================================================== -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+<!-- add after bootstrap.min.css -->
+<link
+  rel="stylesheet"
+  href="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.css"
+/>
+<!-- add after bootstrap.min.js -->
+<script src="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.js"></script>
+
+
+<script src="{{ site.baseurl }}/assets/js/prism.js"></script>
+<script src="{{ site.baseurl }}/assets/js/theme.js"></script>
+
+
+
+{% if site.lazyimages == "enabled" %}
+<script src="{{ site.baseurl }}/assets/js/lazyload.js"></script>
+{% endif %}
+
+{% if page.layout == 'post' %}
+<script id="dsq-count-scr" src="//{{site.disqus}}.disqus.com/count.js"></script>
+{% endif %}
+
+
+<!--masonry-->
+<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js">
+</script>
+<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"></script>
+<script src="{{ site.baseurl }}/assets/js/masonry.js">
+</script>
+
+
+</body>
+</html>
